@@ -1,21 +1,17 @@
 public class Animal {
-    // 3 собственных атрибута
     private String name;
     private int age;
     private double weight;
 
-    // Пустой конструктор (на всякий случай, для студентов)
     public Animal() {
     }
 
-    // Конструктор с параметрами
     public Animal(String name, int age, double weight) {
         this.name = name;
         this.age = age;
         this.weight = weight;
     }
 
-    // 3 собственных метода (геттеры и сеттеры не считаются)
     public void eat() {
         System.out.println(name + " кушает.");
     }
@@ -28,7 +24,6 @@ public class Animal {
         System.out.println(name + " издает звук.");
     }
 
-    // Геттеры и сеттеры
     public String getName() {
         return name;
     }
